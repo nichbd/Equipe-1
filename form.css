@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+section, footer {
+    padding: 70px 7%;
+}
+
+/* Cabeçalho */
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #f8ba4c;
+}
+
+
+header img {
+
+    height: 100%;
+    width: auto;
+    padding: 5px 1%;
+
+}
+
+nav {
+    float: right;
+
+}
+
+#menu_principal ul {
+    padding:0px;
+    margin: 0 3%;
+    list-style:none;
+    float: right;
+}
+
+#menu_principal ul li{
+    display: inline-block;
+    margin: 20px 10px;
+    border: 0;
+}
+#menu_principal ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #FFF;
+}
+
+#menu_principal ul li a:hover {
+    color: #ff0000;
+}
+
+footer{
+    display:flex;
+    background-color: #f8ba4c;
+    justify-content: center;
+}
+
+footer ul{
+    list-style: none;
+    padding:0;
+    float: left;
+}
+
+footer li{
+    padding: 2% 0;
+}
+
+footer div{
+    font-size: 20px;
+}
+
+footer span{
+    font-size: 1.20em;
+    margin-bottom: 30px;
+}
+
+div.logo{
+	float: right;
+    text-align: right;
+    width: 40%;
+    padding-top: 20px;
+}
+
+div.logo img{
+	float: right;
+    width: 100%;
+}
+
+.menu ul li a{
+    color: #333;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    color: #ff0000;
+}
+
+.contato{
+    margin-right: 30%;
+    margin-left: 10%;
+}
+
+.contato ul li a{
+    color: #333;
+    text-decoration: none;
+}
+
+.contato a:hover {
+    color: #ff0000;
+}
+
+footer img{
+    height: 150px;
+}
+
+.formulario{
+    max-width: 500px;
+    padding: 20px 12px 10px 20px;
+    height: 400px;
+
+}
+.form-titulo{
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+.formulario label{
+    display: block;
+    margin: 0px 0px 15px 0px;
+}
+
+.formulario label > span{
+    width: 100px;
+    font-weight: bold;
+    float: left;
+    padding-top: 8px;
+    padding-right: 5px;
+}
+
+.formulario .tel-numero-campo{
+    width: 60px;
+    text-align: center;
+}
+.formulario input.input-field{
+    width: 48%;
+
+}
+
+.formulario input.input-field,
+.formulario .tel-numero-campo,
+.formulario .textarea-field,
+ .formulario .select-field{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    padding: 7px;
+    outline: none;
+}
+
+.formulario .textarea-field{
+    height:100px;
+    width: 55%;
+}
+.formulario input[type=submit],
+.formulario input[type=button]{
+    border: none;
+    padding: 8px 15px 8px 15px;
+    background: #f8ba4c;
+    color: #fff;
+    box-shadow: 1px 1px 4px #DADADA;
+    -moz-box-shadow: 1px 1px 4px #DADADA;
+    -webkit-box-shadow: 1px 1px 4px #DADADA;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+.formulario input[type=submit]:hover,
+.formulario input[type=button]:hover{
+    background: #EA7B00;
+    color: #fff;
+}
+</style>
