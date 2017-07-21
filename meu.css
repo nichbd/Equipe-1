@@ -26,6 +26,9 @@ header {
     background-color: #f8ba4c;
 }
 
+.icon {
+    display: none;
+}
 
 header img {
 
@@ -234,3 +237,21 @@ div.logo img{
 footer img{
     height: 150px;
 }
+@media screen and (max-width: 670px){
+    nav{
+        display: none;
+        position: absolute;
+        background-color: #eee;
+    }
+    .icon {
+        display: inline;
+        float: right;
+        padding: 2% 2%;
+    }
+    .icon:hover ~ nav{
+        display: inline-block;
+        float: right;
+    }
+
+}
+
