@@ -34,6 +34,9 @@ header img {
     padding: 5px 1%;
 
 }
+.icon {
+    display: none;
+}
 
 nav {
     float: right;
@@ -200,3 +203,24 @@ footer img{
     color: #fff;
 }
 
+@media screen and (max-width: 978px){
+    nav{
+        display: none;
+        position: absolute;
+        background-color: #eee;
+    }
+    .icon {
+        display: inline;
+        float: right;
+        padding: 2% 2%;
+    }
+    .icon:hover ~ nav{
+        display: inline-block;
+        float: right;
+    }
+    nav:hover{
+        display: inline-block;
+        float: right;
+    }
+
+}
